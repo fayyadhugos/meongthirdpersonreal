@@ -1,0 +1,2 @@
+game:GetService("RunService").RenderStepped:Connect(function()
+    game.Workspace.CurrentCamera.CFrame = (game.Players.LocalPlayer.Character.Head.CFrame * CFrame.Angles(math.rad(-30),0,0)) * CFrame.new(0,0.5,10)end)
